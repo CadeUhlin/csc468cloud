@@ -14,4 +14,4 @@ node.addService(rspec.Execute(shell="/bin/sh", command="sudo apt install -y apac
 
 node.addService(rspec.Execute(shell="/bin/sh", command="systemctl status apache2"))
 
-protal.context.printRequestRSpec()
+portal.context.printRequestRSpec()
